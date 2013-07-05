@@ -1,0 +1,14 @@
+{
+"queries"      :  "./data/topics.microblog2012.txt",
+"qrel_times"   :  "./data/oracle_epochs.txt",
+"qrels"        :  "./data/qrels.microblog2012.txt",
+"oracle_epochs":  "./data/oracle_epochs.txt",
+"use_oracle"   :  true,
+"host"         :  "ec2-67-202-32-131.compute-1.amazonaws.com",
+"port"         :  9090,
+"num_results"  :  1000,
+"num_rerank"   :  1000,
+"group"        :  "INSERT_HERE",
+"token"        :  "INSERT_HERE",
+"runtag"       :  "uiucGSLIS_01"
+}
