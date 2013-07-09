@@ -40,7 +40,6 @@ which will run a simple baseline query likelihood retrieval.  All runnable progr
 ```
 {
 "queries"      :  "./data/topics.microblog2012.txt",
-"qrel_times"   :  "./data/oracle_epochs.txt",
 "qrels"        :  "./data/qrels.microblog2012.txt",
 "oracle_epochs":  "./data/oracle_epochs.txt",
 "use_oracle"   :  false,
