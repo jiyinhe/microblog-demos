@@ -19,12 +19,10 @@ public class KeyValuePair implements Scorable {
 		return b.toString();
 	}
 
-	@Override
 	public void setScore(double score) {
 		this.value = score;
 	}
 
-	@Override
 	public double getScore() {
 		return value;
 	}

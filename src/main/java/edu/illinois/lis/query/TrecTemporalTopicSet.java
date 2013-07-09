@@ -24,7 +24,6 @@ public class TrecTemporalTopicSet implements Iterable<TrecTemporalTopic>{
     queries.add(q);
   }
 
-  @Override
   public Iterator<TrecTemporalTopic> iterator() {
     return queries.iterator();
   }

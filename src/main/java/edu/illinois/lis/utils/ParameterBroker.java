@@ -8,7 +8,6 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
-import org.apache.log4j.Logger;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
@@ -23,7 +22,6 @@ import com.google.gson.JsonParser;
  *
  */
 public class ParameterBroker {
-	private static final Logger LOG = Logger.getLogger(ParameterBroker.class);
 
 	private static final JsonParser JSON_PARSER = new JsonParser();
 	private Map<String,String> params;
@@ -44,7 +42,7 @@ public class ParameterBroker {
 		try {
 			json = (JsonObject) JSON_PARSER.parse(new BufferedReader(new FileReader(pathToJson)));
 		} catch (Exception e) {
-			LOG.fatal("died trying to parse json file: " + pathToJson, e);
+			System.err.println("died trying to parse json file: " + pathToJson);
 			System.exit(-1);
 		}
 

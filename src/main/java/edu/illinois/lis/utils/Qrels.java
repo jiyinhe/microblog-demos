@@ -11,7 +11,6 @@ import java.util.Set;
 import java.util.regex.Pattern;
 
 import org.apache.commons.io.IOUtils;
-import org.apache.log4j.Logger;
 
 public class Qrels {
 
