@@ -43,7 +43,7 @@ which will run a simple baseline query likelihood retrieval.  All runnable progr
 "qrels"        :  "./data/qrels.microblog2012.txt",
 "oracle_epochs":  "./data/oracle_epochs.txt",
 "use_oracle"   :  false,
-"host"         :  "ec2-54-234-186-72.compute-1.amazonaws.com",
+"host"         :  "<host_name>",
 "port"         :  9090,
 "num_results"  :  1000,
 "num_rerank"   :  5000,
