@@ -33,7 +33,7 @@ Invoking Sample Runs
 After building, you can run any of the sample programs via somthing like this:
 
 ```
-$ ./target/appassembler/bin/RunQueriesQL ~/research/trec2013/microblog/config/params_run.json 
+$ ./target/appassembler/bin/RunQueriesQL ./config/params_run.json 
 ```
 
 which will run a simple baseline query likelihood retrieval.  All runnable programs are in ./target/appassembler/bin/ .  Also, all programs take a single argument: a JSON-formatted file that will look something like this:
